@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Tim Johns</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+
+.project{
+  margin-bottom: 35px;
+}
+.project .list-group{
+  margin-bottom: 0px;
+}
+
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;1746857?v&#x3D;4" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Tim Johns<br><span>Software Engineer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>I'm a programmer and educator with 13+ years of experience in full-stack web development, embedded systems, and software architecture. I've worked mostly at startups so I am used to handling diverse responsibilities. As a teacher, I have independently transformed programming novices into proficient software engineers through a comprehensive curriculum. I'm generally very flexible when investigating new roles.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Self-Employed
+                      <div class="pull-right">
+                        Remote
+                      </div>
+                    </div>
+                    <div class="year">July 2020 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineering Mentor</div>
+                    <div class="description">
+                      Developed mentorship programs for career-changers and experienced software engineers. Met with students remotely on a regular basis to review work, answer questions, assign goals, plan projects, provide specific topic lessons, and employ scrum techniques.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Transformed programming novices into proficient software engineers in under 1 year.</li>
+                        <li class="list-group-item">Developed a full-stack web development curriculum with 14 modules, providing accurate time estimations to optimize skill acquisition and project completion.</li>
+                        <li class="list-group-item">Authored foundational programming lessons with over 170 thoughtfully designed practice exercises, ensuring a hands-on and engaging learning experience for students at all levels.</li>
+                        <li class="list-group-item">Employed a mastery-based mentorship strategy, customizing the learning journey for each individual, resulting in a thorough understanding of concepts and practical application in real-world scenarios.</li>
+                        <li class="list-group-item">Elevated the skills of experienced software engineers through targeted mentorship, contributing to successful career advancement and significant skill enhancements.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Icewire Technologies
+                      <div class="pull-right">
+                        Toronto, ON&#x2F;Remote
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;github.com&#x2F;SlimTim10&#x2F;great-problems" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;github.com&#x2F;SlimTim10&#x2F;great-problems</a>
+                    </div>
+                    <div class="year">November 2020 – November 2022</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Architect</div>
+                    <div class="description">
+                      Lead the development of a large and complex web platform for creating and sharing practice problems & problem sets for various University-level subjects.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Haskell / Go / PostgreSQL / REST API / Tailwind CSS / LaTeX</li>
+                        <li class="list-group-item">Developed a custom markup language for writing and rendering practice problems.</li>
+                        <li class="list-group-item">Designed and implemented a 6-phase data pipeline akin to a compiler, leveraging sequential processing, modular architecture, and optimization techniques to efficiently transform raw data into refined, structured outputs.</li>
+                        <li class="list-group-item">Developed open source library for integrating Ace Code Editor with Reflex FRP.</li>
+                        <li class="list-group-item">Used the cutting-edge Obelisk framework for full-stack Haskell development, including functional reactive programming.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Lighthouse Labs
+                      <div class="pull-right">
+                        Toronto, ON&#x2F;Remote
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.lighthouselabs.ca&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.lighthouselabs.ca&#x2F;</a>
+                    </div>
+                    <div class="year">September 2017 – February 2021</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Web Development Teacher</div>
+                    <div class="description">
+                      Lighthouse Labs is a prominent Canadian coding bootcamp renowned for providing immersive and intensive training in web development. The organization offers comprehensive, hands-on bootcamps designed to equip individuals with practical skills for successful entry into the technology industry.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Voted favourite mentor for three consecutive years.</li>
+                        <li class="list-group-item">Designed and gave lectures and workshops about various technologies and subjects.</li>
+                        <li class="list-group-item">Guided students through the entire lifcycle of their group projects, from ideation and tech stack selection to feature planning, task breakdown, and debugging support.</li>
+                        <li class="list-group-item">Responsible for on-boarding and training newly recruited mentors.</li>
+                        <li class="list-group-item">Conducted mock tech interviews.</li>
+                        <li class="list-group-item">Supervised the primary coding evaluation.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Branding Academy
+                      <div class="pull-right">
+                        Toronto, ON
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.brandingjobinterview.com&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.brandingjobinterview.com&#x2F;</a>
+                    </div>
+                    <div class="year">March 2019 – July 2019</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Lead Instructor</div>
+                    <div class="description">
+                      Developed and lead a 12-week part-time course on frontend web development.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Curriculum development: lectures, workshops, and assignments.</li>
+                        <li class="list-group-item">HTML, CSS, Responsive Design, JavaScript, React framework, Bootstrap CSS, REST APIs.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Art &amp; Science Digital Experience Design
+                      <div class="pull-right">
+                        Toronto, ON
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;artscience.ca&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;artscience.ca&#x2F;</a>
+                    </div>
+                    <div class="year">February 2017 – September 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Full Stack Developer</div>
+                    <div class="description">
+                      Art & Science is a digital marketing agency that connects ideas, experiences and technology to design the future of brands.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Built highly customized experiential websites with WordPress.</li>
+                        <li class="list-group-item">Embedded system design and prototyping for experiential marketing products.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Freelance
+                      <div class="pull-right">
+                        Toronto, ON
+                      </div>
+                    </div>
+                    <div class="year">July 2015 – January 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Freelance Electronics Engineer</div>
+                    <div class="description">
+                      Worked with startups and individuals to develop software and hardware electronics that met their unique needs.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">PCB design for specific form factors.</li>
+                        <li class="list-group-item">Firmware development.</li>
+                        <li class="list-group-item">Worked with camera modules, QR code software, RF modules, 32-bit ARM microcontrollers.</li>
+                        <li class="list-group-item">Debugged and repaired small batch electronic magic trick props.</li>
+                        <li class="list-group-item">Hand-built prototypes through breadboarding and soldering.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Icewire Technologies
+                      <div class="pull-right">
+                        Toronto, ON
+                      </div>
+                    </div>
+                    <div class="year">May 2010 – August 2016</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Co-founder, Embedded Systems Designer</div>
+                    <div class="description">
+                      Lead the design and development of a high-precision inertial measurement unit data logger. The AG-1 data logger takes 6-axis measurements from accelerometer and gyroscope sensors and logs the data to a microSD card in CSV file format for general purpose usage.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Designed and implemented a robust FAT32 file system from the ground up to fit in a 16-bit microcontroller with limited RAM and flash memory.</li>
+                        <li class="list-group-item">Achieved logging speeds of 6-axis data up to 640 Hz.</li>
+                        <li class="list-group-item">Implemented in-field firmware update capability.</li>
+                        <li class="list-group-item">Designed single button control interface and text file configuration for easy usage.</li>
+                        <li class="list-group-item">Sourced, tested, and developed with various MEMS sensors.</li>
+                        <li class="list-group-item">Designed schematic and 4-layer PCB.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Icewire Makerspace
+                      <div class="pull-right">
+                        Toronto, ON
+                      </div>
+                    </div>
+                    <div class="year">August 2014 – July 2016</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Co-founder, Instructor</div>
+                    <div class="description">
+                      Icewire Makerspace is an educational facility located in the Midtown neighbourhood in Toronto.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Taught hands-on workshops and classes to ages 12 to adult.</li>
+                        <li class="list-group-item">Basic electronics, Arduino electronics and programming, robotics, PCB soldering, 3D printing and modeling.</li>
+                        <li class="list-group-item">Instructed Toronto District School Board (TDSB) faculty members on using Arduino electronics as part of the board's STEM initiative.</li>
+                        <li class="list-group-item">Incorporated and taught Arduino and programming at Bessborough Public School as a progressive extension of the school's math curriculum.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fas fa-users ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">QueerTech</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;queertech.org&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;queertech.org&#x2F;</a>
+                    </div>
+                    <div class="year">February 2023 – June 2023</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Mentor</div>
+                    <div class="description">
+                      QueerTech is a not-for-profit advocacy group for gender, sex and sexual minority (LGBTQ) professionals in the technology sector.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Met with multiple queer people in the tech industry to aid them with personal branding, networking, interviews, and technical skills.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- PROJECTS -->
+          <div class="box">
+            <h2><i class= "fas fa-code-branch ico"></i> Projects</h2>
+            <div class="job project clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">
+                    Daily Theme Tracker
+                  </div>
+                  <div class="year">August 2023 – Present</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="description">
+                    Inspired by the physical Theme System Journal (https://www.themesystem.com), the Daily Theme Tracker enables easy daily habit tracking.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="job project clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">
+                    Contributor - Certainty by Construction: Software and Mathematics in Agda
+                  </div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;leanpub.com&#x2F;certainty-by-construction" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;leanpub.com&#x2F;certainty-by-construction</a>
+                  </div>
+                  <div class="year">December 2023 – Present</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="description">
+                    A book by Sandy Maguire on successfully wielding the Agda proof assistent: teaching everything you need to know to get productive in modeling problems and in verifying your solutions.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="job project clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">
+                    Easy Invoice Maker
+                  </div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;SlimTim10&#x2F;easy-invoice-maker" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;github.com&#x2F;SlimTim10&#x2F;easy-invoice-maker</a>
+                  </div>
+                  <div class="year">May 2022 – August 2022</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="description">
+                    Easily generate PDF invoices which are emailed automatically to the client. From a simple YAML file, a PDF invoice is generated and sent to the client.
+                    <div class="highlights">Highlights</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Reduced time spend on manual invoicing by 75%.</li>
+                      <li class="list-group-item">Contributed to a 20% increase in overall productivity by minimizing administrative tasks and allowing for a greater focus on mentorship.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="job project clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">
+                    Intuitive JavaScript
+                  </div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;intuitivejs.info&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;intuitivejs.info&#x2F;</a>
+                  </div>
+                  <div class="year">February 2021 – December 2021</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="description">
+                    Modern JavaScript lessons with practice exercises.
+                    <div class="highlights">Highlights</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Over 170 thoughtfully designed practice exercises.</li>
+                      <li class="list-group-item">Practical, functional, strongly typed.</li>
+                      <li class="list-group-item">Used by learners globally.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="job project clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">
+                    And many more!
+                  </div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;SlimTim10" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;github.com&#x2F;SlimTim10</a>
+                  </div>
+                  <div class="year">August 2012 – Present</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="description">
+                    See my GitHub for projects I've made over the years.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Toronto, Ontario CA</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:johns.timf@gmail.com" target="_blank">johns.timf@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;timjohns.ca" target="_blank">https:&#x2F;&#x2F;timjohns.ca</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;tim-johns&#x2F;" target="_blank">tim-johns</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">GitHub</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;SlimTim10" target="_blank">SlimTim10</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2007 2010</div>
+                <div class="description pull-right">
+                  <h3>University of Toronto</h3>
+                  <div class="where"></div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;www.utoronto.ca&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.utoronto.ca&#x2F;</a>
+                  </div>
+                  
+                  <p>Mathematics and Computer Science</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Software Development
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Haskell</span>
+                <span class= "skill badge">HTML</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">JavaScript</span>
+                <span class= "skill badge">TypeScript</span>
+                <span class= "skill badge">Functional Programming</span>
+                <span class= "skill badge">SQL</span>
+                <span class= "skill badge">PostgreSQL</span>
+                <span class= "skill badge">React</span>
+                <span class= "skill badge">C</span>
+                <span class= "skill badge">Ruby</span>
+                <span class= "skill badge">Ruby on Rails</span>
+                <span class= "skill badge">Python</span>
+                <span class= "skill badge">PHP</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Technologies &#x2F; Tools
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Docker</span>
+                <span class= "skill badge">AWS</span>
+                <span class= "skill badge">Linux</span>
+                <span class= "skill badge">Emacs</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Embedded Systems
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">C</span>
+                <span class= "skill badge">Firmware Development</span>
+                <span class= "skill badge">PCB Design</span>
+                <span class= "skill badge">Schematic Design</span>
+                <span class= "skill badge">Prototyping</span>
+                <span class= "skill badge">Microcontrollers</span>
+                <span class= "skill badge">MEMS Sensors</span>
+                <span class= "skill badge">Arduino</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Teaching
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Curriculum Development</span>
+                <span class= "skill badge">Mentoring</span>
+                <span class= "skill badge">Lecturing</span>
+                <span class= "skill badge">Technical Writing</span>
+                <span class= "skill badge">Lesson Planning</span>
+                <span class= "skill badge">Project Design</span>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2><i class="fas fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">English<span class="skill badge pull-right">Native speaker</span></li>
+            </ul>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Rock Climbing
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Open Source
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

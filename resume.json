@@ -1,0 +1,275 @@
+{
+  "basics": {
+    "name": "Tim Johns",
+    "label": "Software Engineer",
+    "image": "https://avatars.githubusercontent.com/u/1746857?v=4",
+    "email": "johns.timf@gmail.com",
+    "url": "https://timjohns.ca",
+    "summary": "I'm a programmer and educator with 13+ years of experience in full-stack web development, embedded systems, and software architecture. I've worked mostly at startups so I am used to handling diverse responsibilities. As a teacher, I have independently transformed programming novices into proficient software engineers through a comprehensive curriculum. I'm generally very flexible when investigating new roles.",
+    "location": {
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tim-johns",
+        "url": "https://www.linkedin.com/in/tim-johns/"
+      },
+      {
+        "network": "GitHub",
+        "username": "SlimTim10",
+        "url": "https://github.com/SlimTim10"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Self-Employed",
+      "position": "Software Engineering Mentor",
+      "location": "Remote",
+      "startDate": "2020-07-01",
+      "summary": "Developed mentorship programs for career-changers and experienced software engineers. Met with students remotely on a regular basis to review work, answer questions, assign goals, plan projects, provide specific topic lessons, and employ scrum techniques.",
+      "highlights": [
+        "Transformed programming novices into proficient software engineers in under 1 year.",
+        "Developed a full-stack web development curriculum with 14 modules, providing accurate time estimations to optimize skill acquisition and project completion.",
+        "Authored foundational programming lessons with over 170 thoughtfully designed practice exercises, ensuring a hands-on and engaging learning experience for students at all levels.",
+        "Employed a mastery-based mentorship strategy, customizing the learning journey for each individual, resulting in a thorough understanding of concepts and practical application in real-world scenarios.",
+        "Elevated the skills of experienced software engineers through targeted mentorship, contributing to successful career advancement and significant skill enhancements."
+      ]
+    },
+    {
+      "name": "Icewire Technologies",
+      "position": "Software Architect",
+      "location": "Toronto, ON/Remote",
+      "url": "https://github.com/SlimTim10/great-problems",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-01",
+      "summary": "Lead the development of a large and complex web platform for creating and sharing practice problems & problem sets for various University-level subjects.",
+      "highlights": [
+        "Haskell / Go / PostgreSQL / REST API / Tailwind CSS / LaTeX",
+        "Developed a custom markup language for writing and rendering practice problems.",
+        "Designed and implemented a 6-phase data pipeline akin to a compiler, leveraging sequential processing, modular architecture, and optimization techniques to efficiently transform raw data into refined, structured outputs.",
+        "Developed open source library for integrating Ace Code Editor with Reflex FRP.",
+        "Used the cutting-edge Obelisk framework for full-stack Haskell development, including functional reactive programming."
+      ]
+    },
+    {
+      "name": "Lighthouse Labs",
+      "position": "Web Development Teacher",
+      "location": "Toronto, ON/Remote",
+      "url": "https://www.lighthouselabs.ca/",
+      "startDate": "2017-09-01",
+      "endDate": "2021-02-01",
+      "summary": "Lighthouse Labs is a prominent Canadian coding bootcamp renowned for providing immersive and intensive training in web development. The organization offers comprehensive, hands-on bootcamps designed to equip individuals with practical skills for successful entry into the technology industry.",
+      "highlights": [
+        "Voted favourite mentor for three consecutive years.",
+        "Designed and gave lectures and workshops about various technologies and subjects.",
+        "Guided students through the entire lifcycle of their group projects, from ideation and tech stack selection to feature planning, task breakdown, and debugging support.",
+        "Responsible for on-boarding and training newly recruited mentors.",
+        "Conducted mock tech interviews.",
+        "Supervised the primary coding evaluation."
+      ]
+    },
+    {
+      "name": "Branding Academy",
+      "position": "Lead Instructor",
+      "location": "Toronto, ON",
+      "url": "https://www.brandingjobinterview.com/",
+      "startDate": "2019-03-01",
+      "endDate": "2019-07-01",
+      "summary": "Developed and lead a 12-week part-time course on frontend web development.",
+      "highlights": [
+        "Curriculum development: lectures, workshops, and assignments.",
+        "HTML, CSS, Responsive Design, JavaScript, React framework, Bootstrap CSS, REST APIs."
+      ]
+    },
+    {
+      "name": "Art & Science Digital Experience Design",
+      "position": "Full Stack Developer",
+      "location": "Toronto, ON",
+      "url": "https://artscience.ca/",
+      "startDate": "2017-02-01",
+      "endDate": "2017-09-01",
+      "summary": "Art & Science is a digital marketing agency that connects ideas, experiences and technology to design the future of brands.",
+      "highlights": [
+        "Built highly customized experiential websites with WordPress.",
+        "Embedded system design and prototyping for experiential marketing products."
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Freelance Electronics Engineer",
+      "location": "Toronto, ON",
+      "startDate": "2015-07-01",
+      "endDate": "2017-01-01",
+      "summary": "Worked with startups and individuals to develop software and hardware electronics that met their unique needs.",
+      "highlights": [
+        "PCB design for specific form factors.",
+        "Firmware development.",
+        "Worked with camera modules, QR code software, RF modules, 32-bit ARM microcontrollers.",
+        "Debugged and repaired small batch electronic magic trick props.",
+        "Hand-built prototypes through breadboarding and soldering."
+      ]
+    },
+    {
+      "name": "Icewire Technologies",
+      "position": "Co-founder, Embedded Systems Designer",
+      "location": "Toronto, ON",
+      "startDate": "2010-05-01",
+      "endDate": "2016-08-01",
+      "summary": "Lead the design and development of a high-precision inertial measurement unit data logger. The AG-1 data logger takes 6-axis measurements from accelerometer and gyroscope sensors and logs the data to a microSD card in CSV file format for general purpose usage.",
+      "highlights": [
+        "Designed and implemented a robust FAT32 file system from the ground up to fit in a 16-bit microcontroller with limited RAM and flash memory.",
+        "Achieved logging speeds of 6-axis data up to 640 Hz.",
+        "Implemented in-field firmware update capability.",
+        "Designed single button control interface and text file configuration for easy usage.",
+        "Sourced, tested, and developed with various MEMS sensors.",
+        "Designed schematic and 4-layer PCB."
+      ]
+    },
+    {
+      "name": "Icewire Makerspace",
+      "position": "Co-founder, Instructor",
+      "location": "Toronto, ON",
+      "startDate": "2014-08-01",
+      "endDate": "2016-07-01",
+      "summary": "Icewire Makerspace is an educational facility located in the Midtown neighbourhood in Toronto.",
+      "highlights": [
+        "Taught hands-on workshops and classes to ages 12 to adult.",
+        "Basic electronics, Arduino electronics and programming, robotics, PCB soldering, 3D printing and modeling.",
+        "Instructed Toronto District School Board (TDSB) faculty members on using Arduino electronics as part of the board's STEM initiative.",
+        "Incorporated and taught Arduino and programming at Bessborough Public School as a progressive extension of the school's math curriculum."
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "QueerTech",
+    "position": "Mentor",
+    "url": "https://queertech.org/",
+    "startDate": "2023-02-01",
+    "endDate": "2023-06-01",
+    "summary": "QueerTech is a not-for-profit advocacy group for gender, sex and sexual minority (LGBTQ) professionals in the technology sector.",
+    "highlights": [
+      "Met with multiple queer people in the tech industry to aid them with personal branding, networking, interviews, and technical skills."
+    ]
+  }],
+  "education": [{
+    "institution": "University of Toronto",
+    "url": "https://www.utoronto.ca/",
+    "area": "Mathematics and Computer Science",
+    "startDate": "2007-01-01",
+    "endDate": "2010-01-01"
+  }],
+  "skills": [
+    {
+      "name": "Software Development",
+      "keywords": [
+        "Haskell",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Functional Programming",
+        "SQL",
+        "PostgreSQL",
+        "React",
+        "C",
+        "Ruby",
+        "Ruby on Rails",
+        "Python",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Technologies / Tools",
+      "keywords": [
+        "Docker",
+        "AWS",
+        "Linux",
+        "Emacs"
+      ]
+    },
+    {
+      "name": "Embedded Systems",
+      "keywords": [
+        "C",
+        "Firmware Development",
+        "PCB Design",
+        "Schematic Design",
+        "Prototyping",
+        "Microcontrollers",
+        "MEMS Sensors",
+        "Arduino"
+      ]
+    },
+    {
+      "name": "Teaching",
+      "keywords": [
+        "Curriculum Development",
+        "Mentoring",
+        "Lecturing",
+        "Technical Writing",
+        "Lesson Planning",
+        "Project Design"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rock Climbing"
+    },
+    {
+      "name": "Open Source"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Daily Theme Tracker",
+      "startDate": "2023-08-01",
+      "description": "Inspired by the physical Theme System Journal (https://www.themesystem.com), the Daily Theme Tracker enables easy daily habit tracking."
+    },
+    {
+      "name": "Contributor - Certainty by Construction: Software and Mathematics in Agda",
+      "startDate": "2023-12-03",
+      "description": "A book by Sandy Maguire on successfully wielding the Agda proof assistent: teaching everything you need to know to get productive in modeling problems and in verifying your solutions.",
+      "url": "https://leanpub.com/certainty-by-construction"
+    },
+    {
+      "name": "Easy Invoice Maker",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-01",
+      "description": "Easily generate PDF invoices which are emailed automatically to the client. From a simple YAML file, a PDF invoice is generated and sent to the client.",
+      "highlights": [
+        "Reduced time spend on manual invoicing by 75%.",
+        "Contributed to a 20% increase in overall productivity by minimizing administrative tasks and allowing for a greater focus on mentorship."
+      ],
+      "url": "https://github.com/SlimTim10/easy-invoice-maker"
+    },
+    {
+      "name": "Intuitive JavaScript",
+      "startDate": "2021-02-01",
+      "endDate": "2021-12-01",
+      "description": "Modern JavaScript lessons with practice exercises.",
+      "highlights": [
+        "Over 170 thoughtfully designed practice exercises.",
+        "Practical, functional, strongly typed.",
+        "Used by learners globally."
+      ],
+      "url": "https://intuitivejs.info/"
+    },
+    {
+      "name": "And many more!",
+      "url": "https://github.com/SlimTim10",
+      "startDate": "2012-08-01",
+      "description": "See my GitHub for projects I've made over the years."
+    }
+  ]
+}

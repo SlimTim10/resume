@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "resume export resume.html --theme jsonresume-theme-tim"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-tim": "^0.2.0",
+    "resume-cli": "^3.0.8"
+  }
+}

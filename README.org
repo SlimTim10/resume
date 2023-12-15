@@ -1,0 +1,13 @@
+* My Resume
+
+Built with [[https://jsonresume.org/][JSON Resume]].
+
+** Build HTML
+
+#+begin_src sh
+npm run build
+#+end_src
+
+** Build PDF
+
+Open resume.html in Firefox, then choose Print > Save to PDF.
